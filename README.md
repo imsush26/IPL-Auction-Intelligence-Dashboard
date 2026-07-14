@@ -1,5 +1,4 @@
-🏏### IPL Auction Intelligence Dashboard
-
+# IPL Auction Intelligence Dashboard
 
 A multi-page interactive Tableau dashboard analysing 14 years of IPL player auction data (2013–2026), covering player prices, franchise spending, nationality splits, and year-on-year trends.
 
@@ -12,6 +11,15 @@ A multi-page interactive Tableau dashboard analysing 14 years of IPL player auct
 - Identify the highest bids
 - Analyze player nationality and role distribution
 - Build an interactive executive dashboard using Tableau
+
+---
+
+## Dataset
+
+Source: IPL Auction Dataset 2013–2026 — Kaggle
+Format: 14 CSV files (one per auction year)
+Records: ~1,300+ player auction entries
+Key columns: Player, Team, Price, Nationality, Role
 
 ---
 
@@ -40,6 +48,15 @@ A multi-page interactive Tableau dashboard analysing 14 years of IPL player auct
 
 ---
 
+## Key Insights
+
+- KKR leads all-time franchise auction spend, followed by Sunrisers Hyderabad and RCB
+- The 2022 Mega Auction recorded the highest total spend in IPL history with 204 players sold
+- All-Rounders command the highest aggregate bid value across all seasons
+- The auction market grew over 3x from the 2013 season to the 2022 Mega Auction
+
+---
+
 ## Technologies Used
 
 - Tableau Desktop
@@ -47,22 +64,6 @@ A multi-page interactive Tableau dashboard analysing 14 years of IPL player auct
 - Calculated Fields
 - Dashboard Filters
 - Dashboard Actions
-
----
-
-## Key Insights
-
-- Identified franchises with the highest cumulative auction spending.
-- Analyzed yearly auction spending trends from 2013–2026.
-- Compared Indian and Overseas player participation.
-- Visualized franchise budget allocation using treemaps.
-- Explored player role distribution across auctions.
-
----
-
-## Dataset
-
-IPL Auction Dataset (2013–2026)
 
 ---
 
@@ -76,3 +77,22 @@ IPL Auction Dataset (2013–2026)
 - Interactive Analytics
 - KPI Design
 - Storytelling with Data
+
+---
+
+## How to Open
+
+- Download the .twbx file from this repo
+- Open with Tableau Desktop (version 2022.1 or later recommended)
+
+---
+
+## Screenshots
+
+Page 1 — Executive Overview
+
+<img width="922" height="401" alt="Screenshot 2026-07-14 150252" src="https://github.com/user-attachments/assets/09c05b43-6222-44e9-ba6e-a367a6412221" />
+
+Page 2 — Team & Player Analysis
+
+<img width="948" height="452" alt="Screenshot 2026-07-14 150307" src="https://github.com/user-attachments/assets/59029203-8dc7-4351-b252-d039292b2bc7" />
